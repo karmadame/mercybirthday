@@ -50,7 +50,7 @@ export default function Home() {
                 <tr>
                   <td className={styles.eventDate}>27 <br />Enero</td>
                   <td className={styles.eventLocation}>Complejo Quinto <br /> Balon, <br /> Ref. a cuadras del <br /> Zool. de Huachipa</td>
-                  <td className={styles.eventDate}>4:30 <br /> pm</td>
+                  <td className={styles.eventDate}>5:00 <br /> pm</td>
                 </tr>
               </tbody>
             </table>
