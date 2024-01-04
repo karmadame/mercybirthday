@@ -69,7 +69,7 @@ export default function Home() {
           />
           <Image
             className={styles.imageTwo}
-            src="/elephant2_2.png"
+            src="/elephant2.png"
             alt="Mercy Arelyz"
             width={110}
             height={110}
