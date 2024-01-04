@@ -1,9 +1,19 @@
+"use client"
 import Image from 'next/image'
 import styles from './page.module.css'
+import { useEffect, useRef } from 'react'
 
 export default function Home() {
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const mainRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    mainRef.current?.parentElement?.addEventListener('click', () => {
+      audioRef.current?.play();
+    });
+  }, []);
   return (
-    <main className={styles.main}>
+    <main className={styles.main} ref={mainRef}>
+      <audio controls id="indigo" src="/indigo_c.mp3" autoPlay ref={audioRef} style={{ display: 'none' }} loop />
       <div className={styles.card}>
         <div className={styles.principal}>
           <p className={styles.dulce}>LA DULCE</p>
