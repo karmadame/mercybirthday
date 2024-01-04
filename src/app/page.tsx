@@ -9,7 +9,7 @@ export default function Home() {
           <p className={styles.dulce}>LA DULCE</p>
           <p className={styles.espera}>Espera</p>
           <Image
-            src="/elephantp.png"
+            src="/elephantp2.png"
             alt="Mercy Arelyz"
             width={250}
             height={240}
@@ -56,7 +56,7 @@ export default function Home() {
             </table>
             <div className={styles.actionButtons}>
               <a href='https://maps.app.goo.gl/w9PMFVDskbMhNmcT7?g_st=iw' target='_blank'><i className="fa fa-map" /> Ver <br />  Ubicación</a>
-              <a href='https://wa.me/51947484338?text=Hola%20Rosilda%20y%20Miguel%20🌟,%20confirmo%20mi%20asistencia%20al%20Baby%20Shower%20de%20Mercy%20Arelyz,%20nos%20vemos%20el%2027%20de%20enero%20❤️💚' target='_blank'><i className="fa fa-phone" /> Confirmar <br /> Asistencia </a>
+              <a href='https://api.whatsapp.com/send?phone=+51915141101&text=Hola%20Rosilda%20y%20Miguel%20%F0%9F%8C%9F,%20confirmo%20mi%20asistencia%20al%20Baby%20Shower%20de%20Mercy%20Arelyz,%20nos%20vemos%20el%2027%20de%20enero%20%E2%9D%A4%EF%B8%8F%F0%9F%92%9A' target='_blank'><i className="fa fa-phone" /> Confirmar <br /> Asistencia </a>
             </div>
           </div>
           <Image
@@ -69,7 +69,7 @@ export default function Home() {
           />
           <Image
             className={styles.imageTwo}
-            src="/elephant2.png"
+            src="/elephant2_2.png"
             alt="Mercy Arelyz"
             width={110}
             height={110}
