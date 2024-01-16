@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Mercy - Baby Shower',
-  description: 'Invitación Baby Shower',
+  description: 'Invitación Baby Shower'
 }
 
 export default function RootLayout({
