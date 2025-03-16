@@ -74,7 +74,7 @@
   position: relative;
   max-width: 480px;
   width: 96%;
-  height: 380px;
+  height: 395px;
   border-top-right-radius: 40%;
   border-top-left-radius: 40%;
   background-image: linear-gradient(to left, #ecc9c5, #FFEDEB);
@@ -84,7 +84,7 @@
 
 .imageOne {
   position: absolute;
-  left: -30px;
+  left: -10px;
   top: 260px;
 }
 
@@ -94,11 +94,17 @@
   top: 250px;
 }
 
+.imageCenter{
+  position: absolute;
+  top: 290px;
+  right: auto;
+  left: auto;
+}
+
 
 .ribbon {
   top: -50px;
   position: absolute;
-  left: -6px;
 }
 
 .infoBaby {
@@ -157,7 +163,7 @@
 }
 
 .actionButtons {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -204,9 +210,9 @@
     position: relative;
     max-width: 480px;
     width: 96%;
-    height: calc(100vh - 200px);
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
+    height: calc(100vh - 206px);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
     background-image: linear-gradient(to left, #ecc9c5, #FFEDEB);
     display: flex;
     justify-content: center;
@@ -224,13 +230,13 @@
   .imageOne {
     position: absolute;
     left: -20px;
-    top: 200px;
+    top: 240px;
   }
 
   .imageTwo {
     position: absolute;
     right: -45px;
-    top: 200px;
+    top: 230px;
   }
 }
 
@@ -257,7 +263,6 @@
   .ribbon {
     top: -50px;
     position: absolute;
-    left: -6px;
   }
 
   .info {
@@ -265,9 +270,9 @@
     position: relative;
     max-width: 480px;
     width: 96%;
-    height: calc(100vh - 200px);
-    border-top-right-radius: 40%;
-    border-top-left-radius: 40%;
+    height: calc(100vh - 206px);
+    border-top-right-radius: 30%;
+    border-top-left-radius: 30%;
     background-image: linear-gradient(to left, #ecc9c5, #FFEDEB);
     display: flex;
     justify-content: center;

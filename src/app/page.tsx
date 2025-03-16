@@ -45,6 +45,14 @@ export default function Home() {
             height={50}
             priority
           />
+          <Image
+              className={styles.startTwo}
+              src="/start.png"
+              alt="Mercy Arelyz"
+              width={50}
+              height={50}
+              priority
+          />
           <div className={styles.infoBaby}>
             <p className={styles.sumary}>
               Tengo el agrado de invitarte
@@ -71,9 +79,9 @@ export default function Home() {
           </div>
           <Image
             className={styles.imageOne}
-            src="/find.png"
+            src="/pinkshark.png"
             alt="Mercy Arelyz"
-            width={90}
+            width={88}
             height={112}
             priority
           />
@@ -86,12 +94,12 @@ export default function Home() {
             priority
           />
           <Image
-            className={styles.startTwo}
-            src="/start.png"
-            alt="Mercy Arelyz"
-            width={50}
-            height={50}
-            priority
+              className={styles.imageCenter}
+              src="/bebebrothers.png"
+              alt="Mercy Arelyz"
+              width={150}
+              height={99}
+              priority
           />
         </div>
       </div >
