@@ -7,8 +7,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Mercy - Baby Shower',
-  description: 'Invitación Baby Shower'
+  title: 'Mercy - Birthday',
+  description: 'Feliz cumpleaños Mercy'
 }
 
 export default function RootLayout({
