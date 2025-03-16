@@ -74,7 +74,7 @@ export default function Home() {
             </table>
             <div className={styles.actionButtons}>
               <a href='https://maps.app.goo.gl/E3YkjCHaHFY78Hqy9' target='_blank'><i className="fa fa-map" /> Ver <br />  Ubicación</a>
-              <a href='https://api.whatsapp.com/send?phone=+51915141101&text=Hola%20Rosilda%20y%20Miguel%20%F0%9F%8C%9F,%20confirmo%20mi%20asistencia%20al%20cumple%20años%20de%20Mercy,%20nos%20vemos%20el%2005%20de%20abril%20%E2%9D%A4%EF%B8%8F%F0%9F%92%9A' target='_blank'><i className="fa fa-phone" /> Confirmar <br /> Asistencia </a>
+              <a href='https://api.whatsapp.com/send?phone=+51915141101&text=Hola%20Rosilda%20y%20Miguel%20%F0%9F%8C%9F,%20confirmo%20mi%20asistencia%20al%20cumpleaños%20de%20Mercy,%20nos%20vemos%20el%2005%20de%20abril%20%E2%9D%A4%EF%B8%8F%F0%9F%92%9A' target='_blank'><i className="fa fa-phone" /> Confirmar <br /> Asistencia </a>
             </div>
           </div>
           <Image
