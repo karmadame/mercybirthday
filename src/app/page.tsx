@@ -16,18 +16,17 @@ export default function Home() {
       <audio controls id="indigo" src="/babyshark.mp3" autoPlay ref={audioRef} style={{ display: 'none' }} loop />
       <div className={styles.card}>
         <div className={styles.principal}>
-          <p className={styles.dulce}>NUESTRA</p>
-          <p className={styles.espera}>Querida</p>
+          <p className={styles.dulce}>HOLA!</p>
+          <p className={styles.espera}>amig@</p>
           <Image
-            src="/mercy.png"
+            src="/mercy2.png"
             alt="Mercy Arelyz"
             width={250}
-            height={240}
+            height={202}
             className={styles.sleepBaby}
             priority
           />
-          <p className={styles.estaPor}>HIJA</p>
-          <p className={styles.terminar}>Cumple<br/> un año</p>
+          <p className={styles.terminar}>Con<br/> esta <br/> sonrisa</p>
         </div>
         <div className={styles.info}>
           <Image
@@ -47,10 +46,8 @@ export default function Home() {
             priority
           />
           <div className={styles.infoBaby}>
-            <p className={styles.parentsName}>Rosilda & Miguel</p>
             <p className={styles.sumary}>
-              Tenemos el agrado de invitarte a celebrar el primer cumpleaños
-              de nuestra amada bebé
+              Tengo el agrado de invitarte a celebrar mi primer cumpleaños
             </p>
             <p className={styles.babyName}>
               Mercy Arelyz
