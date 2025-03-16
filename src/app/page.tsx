@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className={styles.info}>
           <Image
-            className={styles.ribbonBirthDay}
+            className={styles.ribbon}
             src="/ribbonhb.png"
             alt="Mercy Arelyz"
             width={350}
@@ -47,7 +47,10 @@ export default function Home() {
           />
           <div className={styles.infoBaby}>
             <p className={styles.sumary}>
-              Tengo el agrado de invitarte a celebrar mi primer cumpleaños
+              Tengo el agrado de invitarte
+            </p>
+            <p className={styles.sumary}>
+              a celebrar mi primer cumpleaños
             </p>
             <p className={styles.babyName}>
               Mercy Arelyz

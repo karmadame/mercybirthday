@@ -2,6 +2,11 @@
   width: 375px;
   height: auto;
   margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: #c783c7 3px solid;
 }
 
 .card {
@@ -20,7 +25,6 @@
 
 .sleepBaby {
   margin-left: -20px;
-  opacity: 100%;
   rotate: 5deg;
 }
 
@@ -91,7 +95,7 @@
 }
 
 
-.ribbonBirthDay {
+.ribbon {
   top: -50px;
   position: absolute;
   left: -6px;
@@ -200,7 +204,7 @@
     position: relative;
     max-width: 480px;
     width: 96%;
-    height: calc(100vh - 244px);
+    height: calc(100vh - 200px);
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     background-image: linear-gradient(to left, #ecc9c5, #FFEDEB);
@@ -219,13 +223,13 @@
 
   .imageOne {
     position: absolute;
-    left: -25px;
+    left: -20px;
     top: 200px;
   }
 
   .imageTwo {
     position: absolute;
-    right: -35px;
+    right: -45px;
     top: 200px;
   }
 }
@@ -233,21 +237,15 @@
 @media (min-width: 430px) {
   .main {
     margin-top: 50px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: #c783c7 3px solid;
   }
 }
 
 /* Mobile */
 @media (max-width: 360px) {
   .sleepBaby {
-    /* margin-left: 16px; */
     width: 200px;
     height: 200px;
-    opacity: 50%;
+    rotate: 5deg;
   }
 
   .main {
@@ -257,9 +255,9 @@
   }
 
   .ribbon {
-    top: -40px;
+    top: -50px;
     position: absolute;
-    left: -30px;
+    left: -6px;
   }
 
   .info {
@@ -281,14 +279,5 @@
     background-color: #FFF6EB;
     margin: auto;
     height: 100vh;
-  }
-}
-
-/* Mobile */
-@media (min-width: 360px) {
-  .ribbon {
-    top: -45px;
-    position: absolute;
-    left: -10px;
   }
 }
